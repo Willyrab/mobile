@@ -1,0 +1,45 @@
+/* Annonce.css */
+
+.historique-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.historique-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden; /* Assure que le contenu ne dépasse pas */
+}
+
+.historique-item-header {
+    background-color:  #c8721d;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.historique-item-user,
+.historique-item-date {
+    color: #333;
+}
+
+.historique-item-content {
+    display: flex;
+    padding: 10px;
+}
+
+.historique-item-content img {
+    max-width: 100px; /* Redimensionne l'image */
+    height: auto;
+    margin-right: 10px;
+}
+
+.historique-item-details {
+    color: #666;
+}
+

@@ -1,0 +1,63 @@
+/* Annonce.css */
+
+
+.voitureMarque-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #8296B0;
+    margin-top: 100px;
+    display: flex; /* Utiliser flexbox pour centrer */
+    flex-direction: column; /* Aligner les éléments en colonne */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+
+}
+
+h1 {
+    color: white; /* Couleur du texte */
+    margin-bottom: 20px; /* Ajoute de l'espace en dessous du titre */
+}
+
+form {
+    width: 100%; /* Utiliser toute la largeur disponible */
+    max-width: 400px; /* Limiter la largeur du formulaire */
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label {
+    color: white;
+}
+.annonceBtn {
+    background-color: #dd8221;
+    color: #fff;
+    border: none;
+    padding: 8px; /* Ajustez le padding pour correspondre à celui des inputs */
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Assurez-vous que le bouton prend toute la largeur */
+    box-sizing: border-box; /* Incluez le padding et la bordure dans la largeur totale */
+}
+
+.annonceBtn:hover {
+    background-color: #c98848;
+    text-transform: uppercase;
+}

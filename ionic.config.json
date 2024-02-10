@@ -1,0 +1,7 @@
+{
+  "name": "vente_voiture",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
